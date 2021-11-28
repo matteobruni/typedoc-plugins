@@ -1,15 +1,14 @@
 {
   "name": "tsparticles-clarity-plugin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": true,
   "author": "Matteo Bruni",
   "license": "MIT",
   "keywords": [
     "typedoc",
     "plugin",
-    "theme",
-    "typedoctheme",
-    "typedoc-theme"
+    "typedocplugin",
+    "typedoc-plugin"
   ],
   "bugs": {
     "url": "https://github.com/matteobruni/tsparticles-clarity-plugin/issues"
