@@ -1,6 +1,6 @@
 {
-  "name": "tsparticles-clarity-plugin",
-  "version": "1.0.2",
+  "name": "typedoc-plugin-clarity",
+  "version": "1.0.1",
   "private": true,
   "author": "Matteo Bruni",
   "license": "MIT",
