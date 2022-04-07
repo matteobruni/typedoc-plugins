@@ -1,6 +1,6 @@
 {
   "name": "typedoc-plugin-clarity",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "author": "Matteo Bruni",
   "license": "MIT",
@@ -21,9 +21,9 @@
     "./**/*"
   ],
   "peerDependencies": {
-    "typedoc": "^0.22.10"
+    "typedoc": "^0.22.14"
   },
   "dependencies": {
-    "typescript": "4.4.4"
+    "typescript": "^4.6.3"
   }
 }
