@@ -14,7 +14,9 @@ export function load(app: Application): void {
   });
 
   app.renderer.hooks.on("head.end", () => {
-    const carbonCss = `#carbonads * {
+    return (
+      <style>
+        {`#carbonads * {
   margin: initial;
   padding: initial;
 }
@@ -74,9 +76,9 @@ export function load(app: Application): void {
   position: absolute;
   bottom: 0;
   right: 0;
-}`;
-
-    return JSX.createElement("style", { html: carbonCss });
+}`}
+      </style>
+    );
   });
 
   app.renderer.hooks.on("body.end", (ctx) => {
