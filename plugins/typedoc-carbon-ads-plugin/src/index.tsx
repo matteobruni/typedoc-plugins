@@ -81,7 +81,7 @@ export function load(app: Application): void {
     );
   });
 
-  app.renderer.hooks.on("body.end", (ctx) => {
+  app.renderer.hooks.on("navigation.begin", (ctx) => {
     const serve = ctx.options.getValue("carbonServe");
     const placement = ctx.options.getValue("carbonPlacement");
 
