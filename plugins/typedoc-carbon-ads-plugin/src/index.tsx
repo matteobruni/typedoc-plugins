@@ -31,6 +31,7 @@ export function load(app: Application): void {
   background-color: hsl(0, 0%, 98%);
   box-shadow: 0 1px 4px 1px hsla(0, 0%, 0%, 0.1);
   z-index: 100;
+  margin: 0 0 0 40px;
 }
 #carbonads a {
   color: inherit;
