@@ -1,6 +1,6 @@
 {
   "name": "typedoc-plugin-clarity",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": true,
   "author": "Matteo Bruni",
   "license": "MIT",
@@ -25,15 +25,15 @@
     "distfiles": "node ./scripts/distfiles.js"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "5.21.0",
-    "@typescript-eslint/parser": "5.21.0",
-    "eslint": "8.14.0",
+    "@typescript-eslint/eslint-plugin": "^5.21.0",
+    "@typescript-eslint/parser": "^5.21.0",
+    "eslint": "^8.14.0",
     "eslint-config-prettier": "^8.5.0",
     "prettier": "^2.6.2",
     "rimraf": "^3.0.2",
-    "typedoc": "0.22.15"
+    "typescript": "^4.6.4"
   },
   "dependencies": {
-    "typescript": "4.6.4"
+    "typedoc": "^0.22.15"
   }
 }
