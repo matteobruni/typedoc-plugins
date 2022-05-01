@@ -1,5 +1,9 @@
 {
+  "baseBranches": [
+    "dev"
+  ],
   "extends": [
-    "config:base"
+    "config:base",
+    ":preserveSemverRanges"
   ]
 }
