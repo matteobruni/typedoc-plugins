@@ -11,11 +11,11 @@
     "typedoc-plugin"
   ],
   "bugs": {
-    "url": "https://github.com/matteobruni/typedoc-google-ads-plugin/issues"
+    "url": "https://github.com/matteobruni/typedoc-keyword-plugin/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/matteobruni/typedoc-google-ads-plugin.git"
+    "url": "git+https://github.com/matteobruni/typedoc-keyword-plugin.git"
   },
   "files": [
     "./**/*"
