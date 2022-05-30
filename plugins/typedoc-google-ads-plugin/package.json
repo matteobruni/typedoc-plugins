@@ -31,7 +31,7 @@
     "eslint-config-prettier": "8.5.0",
     "prettier": "2.6.2",
     "rimraf": "3.0.2",
-    "typedoc": "0.22.15"
+    "typedoc": "0.22.16"
   },
   "dependencies": {
     "typescript": "4.7.2"
