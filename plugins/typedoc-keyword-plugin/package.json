@@ -25,15 +25,15 @@
     "distfiles": "node ./scripts/distfiles.js"
   },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.21.0",
-    "@typescript-eslint/parser": "^5.21.0",
-    "eslint": "^8.14.0",
-    "eslint-config-prettier": "^8.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.27.0",
+    "@typescript-eslint/parser": "^5.27.0",
+    "eslint": "^8.16.0",
+    "eslint-config-prettier": "^8.5.0",
     "prettier": "^2.6.2",
     "rimraf": "^3.0.2",
-    "typedoc": "^0.22.15"
+    "typedoc": "^0.22.16"
   },
   "dependencies": {
-    "typescript": "^4.6.4"
+    "typescript": "^4.7.2"
   }
 }
