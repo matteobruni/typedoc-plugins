@@ -20,7 +20,10 @@
   "files": [
     "./**/*"
   ],
+  "peerDependencies": {
+    "typedoc": "^0.22.16"
+  },
   "dependencies": {
-    "typedoc": "^0.22.15"
+    "typescript": "^4.7.2"
   }
 }

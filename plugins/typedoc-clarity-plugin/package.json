@@ -24,16 +24,19 @@
     "prettify:src": "prettier --write ./src",
     "distfiles": "node ./scripts/distfiles.js"
   },
+  "peerDependencies": {
+    "typedoc": "^0.22.16"
+  },
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.21.0",
-    "@typescript-eslint/parser": "^5.21.0",
-    "eslint": "^8.14.0",
+    "@typescript-eslint/eslint-plugin": "^5.27.0",
+    "@typescript-eslint/parser": "^5.27.0",
+    "eslint": "^8.16.0",
     "eslint-config-prettier": "^8.5.0",
     "prettier": "^2.6.2",
     "rimraf": "^3.0.2",
-    "typescript": "^4.6.4"
+    "typedoc": "^0.22.16"
   },
   "dependencies": {
-    "typedoc": "^0.22.15"
+    "typescript": "^4.7.2"
   }
 }
