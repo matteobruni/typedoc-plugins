@@ -14,9 +14,7 @@ export function load(app: Application): void {
   });
 
   app.renderer.hooks.on("head.end", () => {
-    return (
-      <style>
-        {`#carbonads * {
+    const adsStyle = `#carbonads * {
   margin: initial;
   padding: initial;
 }
@@ -77,7 +75,11 @@ export function load(app: Application): void {
   position: absolute;
   bottom: 0;
   right: 0;
-}`}
+}`;
+
+    return (
+      <style>
+        <JSX.Raw html={adsStyle} />
       </style>
     );
   });
