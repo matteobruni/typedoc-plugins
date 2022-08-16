@@ -1,2 +1,11 @@
 # typedoc-clarity-plugin
-TypeDoc Clarity Plugin
+
+Adds Microsoft's [Clarity](https://clarity.microsoft.com/) script to the generated documentation.
+
+## Options
+
+```json
+{
+  "clarityId": "abc123"
+}
+```
