@@ -1,2 +1,9 @@
 # typedoc-keyword-plugin
-TypeDoc Keyword Plugin
+
+Adds `<meta name="keyword">` tags to your generated site.
+
+```json
+{
+  "keywords": ["typescript", "library"]
+}
+```
