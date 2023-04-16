@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/lerna/schemas/lerna-schema.json",
+  "packages": ["plugins/*"],
+  "useWorkspaces": true,
+  "version": "indipendent",
+  "npmClient": "pnpm",
+  "conventionalCommits": true,
+  "command": {
+    "version": {
+      "message": "chore(release): published new version"
+    }
+  }
+}

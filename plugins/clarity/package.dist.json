@@ -1,0 +1,30 @@
+{
+  "name": "typedoc-plugin-clarity",
+  "version": "1.2.0",
+  "main": "index.js",
+  "author": "Matteo Bruni",
+  "license": "MIT",
+  "keywords": [
+    "typedoc",
+    "plugin",
+    "typedocplugin",
+    "typedoc-plugin"
+  ],
+  "bugs": {
+    "url": "https://github.com/matteobruni/typedoc-plugins/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matteobruni/typedoc-plugins.git",
+    "directory": "clarity"
+  },
+  "files": [
+    "./**/*"
+  ],
+  "peerDependencies": {
+    "typedoc": "^0.24.2"
+  },
+  "dependencies": {
+    "typescript": "^5.0.4"
+  }
+}
