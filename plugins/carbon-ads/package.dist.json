@@ -4,12 +4,7 @@
   "main": "index.js",
   "author": "Matteo Bruni",
   "license": "MIT",
-  "keywords": [
-    "typedoc",
-    "plugin",
-    "typedocplugin",
-    "typedoc-plugin"
-  ],
+  "keywords": ["typedoc", "plugin", "typedocplugin", "typedoc-plugin"],
   "bugs": {
     "url": "https://github.com/matteobruni/typedoc-plugins/issues"
   },
@@ -18,9 +13,7 @@
     "url": "git+https://github.com/matteobruni/typedoc-plugins.git",
     "directory": "carbon-ads"
   },
-  "files": [
-    "./**/*"
-  ],
+  "files": ["./**/*"],
   "peerDependencies": {
     "typedoc": "^0.24.4"
   },
