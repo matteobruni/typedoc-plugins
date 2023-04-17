@@ -33,7 +33,7 @@
     "dist"
   ],
   "peerDependencies": {
-    "typedoc": "^0.24.2"
+    "typedoc": "^0.24.4"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.58.0",
@@ -42,7 +42,7 @@
     "eslint-config-prettier": "^8.8.0",
     "prettier": "^2.8.7",
     "rimraf": "^5.0.0",
-    "typedoc": "^0.24.2"
+    "typedoc": "^0.24.4"
   },
   "dependencies": {
     "typescript": "^5.0.4"

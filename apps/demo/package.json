@@ -5,7 +5,8 @@
   "private": true,
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon app.js",
+    "build": "tsc && typedoc --plugin typedoc-plugin-keyword --plugin typedoc-plugin-particles"
   },
   "license": "ISC",
   "dependencies": {
@@ -13,12 +14,12 @@
     "express": "^4.18.2",
     "express-rate-limit": "^6.7.0",
     "helmet": "^6.1.5",
-    "liveread": "^0.3.5",
+    "livereload": "^0.9.3",
     "nodemon": "^2.0.22",
     "pug": "^3.0.2",
     "pug-cli": "1.0.0-alpha6",
     "stylus": "^0.59.0",
-    "typedoc": "^0.24.2",
+    "typedoc": "^0.24.4",
     "typedoc-plugin-clarity": "^1.2.0",
     "typedoc-plugin-carbon-ads": "^1.2.0",
     "typedoc-plugin-google-ads": "^1.2.0",

@@ -14,6 +14,13 @@
     "@commitlint/cli": "^17.6.1",
     "@commitlint/config-conventional": "^17.6.1",
     "husky": "^8.0.3",
-    "lerna": "^6.6.1"
+    "lerna": "^6.6.1",
+    "typedoc": "^0.24.4",
+    "typedoc-plugin-clarity": "^1.2.0",
+    "typedoc-plugin-carbon-ads": "^1.2.0",
+    "typedoc-plugin-google-ads": "^1.2.0",
+    "typedoc-plugin-keyword": "^1.2.0",
+    "typedoc-plugin-particles": "^1.0.0",
+    "typescript": "^5.0.4"
   }
 }
