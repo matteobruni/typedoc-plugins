@@ -19,12 +19,12 @@
     "pug": "^3.0.2",
     "pug-cli": "1.0.0-alpha6",
     "stylus": "^0.59.0",
-    "typedoc": "^0.24.4",
-    "typedoc-plugin-clarity": "^1.2.0",
-    "typedoc-plugin-carbon-ads": "^1.2.0",
-    "typedoc-plugin-google-ads": "^1.2.0",
-    "typedoc-plugin-keyword": "^1.2.0",
-    "typedoc-plugin-particles": "^1.0.0",
+    "typedoc": "^0.24.6",
+    "typedoc-plugin-carbon-ads": "workspace:^",
+    "typedoc-plugin-clarity": "workspace:^",
+    "typedoc-plugin-google-ads": "workspace:^",
+    "typedoc-plugin-keyword": "workspace:^",
+    "typedoc-plugin-particles": "workspace:^",
     "typescript": "^5.0.4"
   }
 }
