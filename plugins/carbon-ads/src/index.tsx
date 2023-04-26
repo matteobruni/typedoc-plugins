@@ -84,7 +84,7 @@ export function load(app: Application): void {
     );
   });
 
-  app.renderer.hooks.on("sidebar.begin", (ctx) => {
+  app.renderer.hooks.on("pageSidebar.begin", (ctx) => {
     const serve = ctx.options.getValue("carbonServe");
     const placement = ctx.options.getValue("carbonPlacement");
 
