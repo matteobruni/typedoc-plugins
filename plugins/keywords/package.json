@@ -22,7 +22,9 @@
     "clear:dist": "rimraf ./dist",
     "lint": "eslint src --ext .js,.jsx,.ts,.tsx --fix",
     "prettify:src": "prettier --write ./src",
-    "distfiles": "node ../../scripts/distfiles.js"
+    "distfiles": "node ../../scripts/distfiles.js",
+    "version": "pnpm run disfiles && git add package.dist.json",
+    "prepack": "pnpm run build"
   },
   "publishConfig": {
     "directory": "dist",
