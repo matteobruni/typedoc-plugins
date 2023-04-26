@@ -353,3 +353,4 @@ MigrationBackup/
 dist/
 tmp/
 build/
+.idea/
