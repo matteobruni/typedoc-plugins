@@ -6,7 +6,7 @@
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js",
-    "build": "tsc && typedoc --plugin typedoc-plugin-keyword --plugin typedoc-plugin-particles"
+    "build": "tsc && typedoc --plugin typedoc-plugin-keywords --plugin typedoc-plugin-particles"
   },
   "license": "ISC",
   "dependencies": {
@@ -23,7 +23,7 @@
     "typedoc-plugin-carbon-ads": "workspace:^",
     "typedoc-plugin-clarity": "workspace:^",
     "typedoc-plugin-google-ads": "workspace:^",
-    "typedoc-plugin-keyword": "workspace:^",
+    "typedoc-plugin-keywords": "workspace:^",
     "typedoc-plugin-particles": "workspace:^",
     "typescript": "^5.0.4"
   }
