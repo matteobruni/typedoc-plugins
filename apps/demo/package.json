@@ -1,6 +1,6 @@
 {
   "name": "tsconfig-plugins-demo",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "TypeDoc plugins demo",
   "private": true,
   "main": "app.js",

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.4.0 (2023-05-03)
+
+
+### Bug Fixes
+
+* meta name and content ([2bab0de](https://github.com/matteobruni/typedoc-plugins/commit/2bab0de99eda5f1ed128d3731f590773ae242041))
+
+
+
+
+
 # 1.3.0 (2023-04-26)
 
 **Note:** Version bump only for package typedoc-plugin-keyword

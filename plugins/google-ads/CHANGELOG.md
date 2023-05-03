@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.4.0](https://github.com/matteobruni/typedoc-plugins/compare/typedoc-plugin-google-ads@1.3.0...typedoc-plugin-google-ads@1.4.0) (2023-05-03)
+
+**Note:** Version bump only for package typedoc-plugin-google-ads
+
+
+
+
+
 # 1.3.0 (2023-04-26)
 
 **Note:** Version bump only for package typedoc-plugin-google-ads
