@@ -19,7 +19,7 @@
     "pug": "^3.0.2",
     "pug-cli": "1.0.0-alpha6",
     "stylus": "^0.59.0",
-    "typedoc": "^0.24.6",
+    "typedoc": "^0.24.7",
     "typedoc-plugin-carbon-ads": "workspace:^",
     "typedoc-plugin-clarity": "workspace:^",
     "typedoc-plugin-google-ads": "workspace:^",

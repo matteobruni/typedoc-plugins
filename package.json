@@ -15,7 +15,7 @@
     "@commitlint/config-conventional": "^17.6.1",
     "husky": "^8.0.3",
     "lerna": "^6.6.1",
-    "typedoc": "^0.24.6",
+    "typedoc": "^0.24.7",
     "typedoc-plugin-carbon-ads": "workspace:^",
     "typedoc-plugin-clarity": "workspace:^",
     "typedoc-plugin-google-ads": "workspace:^",
