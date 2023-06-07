@@ -11,16 +11,16 @@
     "plugins/*"
   ],
   "devDependencies": {
-    "@commitlint/cli": "^17.6.1",
-    "@commitlint/config-conventional": "^17.6.1",
+    "@commitlint/cli": "^17.6.5",
+    "@commitlint/config-conventional": "^17.6.5",
     "husky": "^8.0.3",
-    "lerna": "^6.6.1",
-    "typedoc": "^0.24.7",
+    "lerna": "^6.6.2",
+    "typedoc": "^0.24.8",
     "typedoc-plugin-carbon-ads": "workspace:^",
     "typedoc-plugin-clarity": "workspace:^",
     "typedoc-plugin-google-ads": "workspace:^",
     "typedoc-plugin-keywords": "workspace:^",
     "typedoc-plugin-particles": "workspace:^",
-    "typescript": "^5.0.4"
+    "typescript": "^5.1.3"
   }
 }

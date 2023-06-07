@@ -17,14 +17,14 @@
     "livereload": "^0.9.3",
     "nodemon": "^2.0.22",
     "pug": "^3.0.2",
-    "pug-cli": "1.0.0-alpha6",
+    "pug-cli": "^1.0.0-alpha6",
     "stylus": "^0.59.0",
-    "typedoc": "^0.24.7",
+    "typedoc": "^0.24.8",
     "typedoc-plugin-carbon-ads": "workspace:^",
     "typedoc-plugin-clarity": "workspace:^",
     "typedoc-plugin-google-ads": "workspace:^",
     "typedoc-plugin-keywords": "workspace:^",
     "typedoc-plugin-particles": "workspace:^",
-    "typescript": "^5.0.4"
+    "typescript": "^5.1.3"
   }
 }
