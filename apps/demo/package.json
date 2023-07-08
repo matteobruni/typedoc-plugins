@@ -15,7 +15,7 @@
     "express-rate-limit": "^6.7.0",
     "helmet": "^7.0.0",
     "livereload": "^0.9.3",
-    "nodemon": "^2.0.22",
+    "nodemon": "^3.0.0",
     "pug": "^3.0.2",
     "pug-cli": "^1.0.0-alpha6",
     "stylus": "^0.59.0",
