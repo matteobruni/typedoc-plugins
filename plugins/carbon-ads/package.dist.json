@@ -1,6 +1,6 @@
 {
   "name": "typedoc-plugin-carbon-ads",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "main": "index.js",
   "author": "Matteo Bruni",
   "license": "MIT",
