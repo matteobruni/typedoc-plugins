@@ -7,7 +7,7 @@ export function load(app: Application): void {
     help: "Google Ads Pub ID",
   });
 
-  app.renderer.hooks.on("body.end", (ctx) => {
+  app.renderer.hooks.on("body.end", (ctx): JSX.Element => {
     const pubId = ctx.options.getValue("googleAdsId");
 
     return (

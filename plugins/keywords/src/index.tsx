@@ -7,7 +7,7 @@ export function load(app: Application): void {
     help: "Website keywords",
   });
 
-  app.renderer.hooks.on("head.begin", (ctx) => {
+  app.renderer.hooks.on("head.begin", (ctx): JSX.Element => {
     const keywords = ctx.options.getValue("keywords") as string[];
 
     return <meta name="keywords" content={keywords.join(", ")} />;
