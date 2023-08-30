@@ -66,8 +66,8 @@ importers:
         specifier: ^3.0.2
         version: 3.0.2
       stylus:
-        specifier: ^0.59.0
-        version: 0.59.0
+        specifier: ^0.60.0
+        version: 0.60.0
       typedoc:
         specifier: ^0.25.0
         version: 0.25.0(typescript@5.2.2)
@@ -5287,8 +5287,8 @@ packages:
       through: 2.3.8
     dev: true
 
-  /stylus@0.59.0:
-    resolution: {integrity: sha512-lQ9w/XIOH5ZHVNuNbWW8D822r+/wBSO/d6XvtyHLF7LW4KaCIDeVbvn5DF8fGCJAUCwVhVi/h6J0NUcnylUEjg==}
+  /stylus@0.60.0:
+    resolution: {integrity: sha512-j2pBgEwzCu05yCuY4cmyp0FtPQQFBBAGB7TY7QaNl7eztiHwkxzwvIp5vjZJND/a1JNOka+ZW9ewVPFZpI3pcA==}
     hasBin: true
     dependencies:
       '@adobe/css-tools': 4.2.0
