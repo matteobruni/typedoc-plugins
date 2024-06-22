@@ -18,7 +18,7 @@
     "nodemon": "^3.0.1",
     "pug": "^3.0.2",
     "stylus": "^0.63.0",
-    "typedoc": "^0.25.4",
+    "typedoc": "^0.26.0",
     "typedoc-plugin-carbon-ads": "workspace:^",
     "typedoc-plugin-clarity": "workspace:^",
     "typedoc-plugin-google-ads": "workspace:^",

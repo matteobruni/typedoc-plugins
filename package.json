@@ -21,7 +21,7 @@
     "lerna": "^8.0.0",
     "prettier": "^3.1.0",
     "rimraf": "^5.0.5",
-    "typedoc": "^0.25.4",
+    "typedoc": "^0.26.0",
     "typedoc-plugin-carbon-ads": "workspace:^",
     "typedoc-plugin-clarity": "workspace:^",
     "typedoc-plugin-google-ads": "workspace:^",
