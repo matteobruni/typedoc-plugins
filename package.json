@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "lerna run build"
+    "build": "lerna run build",
+    "lint": "pnpm -w eslint \"**/*.{ts,tsx,js,jsx}\" --max-warnings=0",
+    "format": "pnpm -w prettier --write \"**/*.{ts,tsx,js,json,md}\"",
+    "test": "vitest"
   },
   "license": "MIT",
   "workspaces": [

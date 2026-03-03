@@ -1,0 +1,16 @@
+{
+  "name": "@your-scope/typedoc-plugin-template",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "lint": "eslint \"src/**/*.{ts,tsx}\" --fix",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.3",
+    "vitest": "^1.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
