@@ -24,5 +24,6 @@
   "peerDependencies": {
     "typedoc": "^0.28.17"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "type": "module"
 }
