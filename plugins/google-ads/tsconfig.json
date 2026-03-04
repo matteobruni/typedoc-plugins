@@ -1,4 +1,5 @@
 {
+  "extends": "../../tsconfig.base.json",
   "compilerOptions": {
     "outDir": "./dist",
     "declaration": true,
@@ -6,8 +7,7 @@
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
     "lib": ["es2018", "dom"],
-    "module": "commonjs",
-    "moduleResolution": "node",
+
     "noImplicitAny": false,
     "noUnusedLocals": true,
     "removeComments": true,
