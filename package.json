@@ -9,6 +9,7 @@
     "test": "vitest"
   },
   "license": "MIT",
+  "type": "module",
   "workspaces": [
     "apps/*",
     "plugins/*"

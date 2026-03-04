@@ -1,14 +1,13 @@
-// Flat config for ESLint v9: centralize per-package rules while keeping
-// behavior equivalent to existing .eslintrc.js files.
-const path = require("path");
+// Flat config for ESLint v9: centralize rules and use ESLint's flat config API.
+import path from "path";
+import tsParser from "@typescript-eslint/parser";
+import tsPlugin from "@typescript-eslint/eslint-plugin";
 
-const tsParser = require("@typescript-eslint/parser");
-const tsPlugin = require("@typescript-eslint/eslint-plugin");
 const tsPluginRecommended =
   (tsPlugin && tsPlugin.configs && tsPlugin.configs.recommended) || {};
 const tsPluginRecommendedRules = tsPluginRecommended.rules || {};
 
-module.exports = [
+export default [
   // Global ignores
   {
     ignores: ["**/dist/**", "**/node_modules/**"],
