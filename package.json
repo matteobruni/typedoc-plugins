@@ -32,10 +32,5 @@
     "typedoc-plugin-keywords": "workspace:^",
     "typedoc-plugin-particles": "workspace:^",
     "typescript": "^5.9.3"
-  },
-  "pnpm": {
-    "overrides": {
-      "typedoc>typescript": "5.9.3"
-    }
   }
 }
