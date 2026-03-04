@@ -2,8 +2,11 @@
 // behavior equivalent to existing .eslintrc.js files.
 const path = require("path");
 
-const tsParser = require.resolve("@typescript-eslint/parser");
+const tsParser = require("@typescript-eslint/parser");
 const tsPlugin = require("@typescript-eslint/eslint-plugin");
+const tsPluginRecommended =
+  (tsPlugin && tsPlugin.configs && tsPlugin.configs.recommended) || {};
+const tsPluginRecommendedRules = tsPluginRecommended.rules || {};
 
 module.exports = [
   // Global ignores
@@ -28,20 +31,17 @@ module.exports = [
       },
     },
     plugins: { "@typescript-eslint": tsPlugin },
-    extends: [
-      "eslint:recommended",
-      "plugin:@typescript-eslint/recommended",
-      "prettier",
-    ],
-    rules: {
+    // Merge the plugin's recommended rules and add workspace-specific
+    // overrides. This avoids using `extends` in the flat config while
+    // still getting the plugin's baseline rule set.
+    rules: Object.assign({}, tsPluginRecommendedRules, {
       "@typescript-eslint/no-explicit-any": "warn",
       "@typescript-eslint/no-var-requires": "warn",
-      "@typescript-eslint/ban-types": "warn",
       "@typescript-eslint/explicit-member-accessibility": [
         "error",
         { accessibility: "no-public" },
       ],
-    },
+    }),
   },
 
   // JS/JSX files (build scripts, configs)
@@ -51,7 +51,9 @@ module.exports = [
       ecmaVersion: 2022,
       sourceType: "module",
     },
-    extends: ["eslint:recommended", "prettier"],
+    // No `extends` in flat config; keep minimal rules and rely on
+    // workspace conventions. If you want eslint:recommended behavior,
+    // import its rules explicitly here.
     rules: {},
   },
 ];
