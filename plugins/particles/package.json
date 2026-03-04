@@ -1,6 +1,7 @@
 {
   "name": "typedoc-plugin-particles",
   "version": "1.4.0",
+  "type": "module",
   "author": "Matteo Bruni",
   "license": "MIT",
   "keywords": [
