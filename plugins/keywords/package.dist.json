@@ -24,7 +24,5 @@
   "peerDependencies": {
     "typedoc": "^0.28.17"
   },
-  "dependencies": {
-    "typescript": "^5.5.3"
-  }
+  "dependencies": {}
 }

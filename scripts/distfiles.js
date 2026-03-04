@@ -29,6 +29,16 @@ libObj.dependencies = JSON.parse(JSON.stringify(mainInfo.dependencies || {}));
 libObj.peerDependencies = JSON.parse(
   JSON.stringify(mainInfo.peerDependencies || {}),
 );
+// Preserve package type (module/commonjs) so Node can load the dist files
+// without reparsing warnings. If the package.json has a "type" field, use it;
+// otherwise default to "module" for our plugins.
+if (mainInfo.type) {
+  libObj.type = mainInfo.type;
+} else if (!libObj.type) {
+  libObj.type = "module";
+}
+// Ensure main is set for runtime resolution
+if (!libObj.main) libObj.main = "index.js";
 
 fs.writeFileSync(libPackage, JSON.stringify(libObj, undefined, 2), "utf8");
 
