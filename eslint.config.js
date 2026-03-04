@@ -2,12 +2,31 @@
 import path from "path";
 import tsParser from "@typescript-eslint/parser";
 import tsPlugin from "@typescript-eslint/eslint-plugin";
+import { FlatCompat } from "@eslint/eslintrc";
+import js from "@eslint/js";
+
+// Provide eslint builtin configs to FlatCompat (required when using "eslint:recommended").
+const compat = new FlatCompat({
+  baseDirectory: path.resolve("."),
+  recommendedConfig: js.configs.recommended,
+  allConfig: js.configs.all,
+});
+
+// Bring in eslint:recommended, plugin:@typescript-eslint/recommended and prettier
+// without using legacy .eslintrc files by converting them to flat config entries.
+const compatConfigs = compat.extends(
+  "eslint:recommended",
+  "plugin:@typescript-eslint/recommended",
+  "prettier",
+);
 
 const tsPluginRecommended =
-  (tsPlugin && tsPlugin.configs && tsPlugin.configs.recommended) || {};
+  (tsPlugin && tsPlugin.configs && tsPlugin.configs["flat/recommended"]) || {};
 const tsPluginRecommendedRules = tsPluginRecommended.rules || {};
 
 export default [
+  ...compatConfigs,
+
   // Global ignores
   {
     ignores: ["**/dist/**", "**/node_modules/**"],
@@ -30,9 +49,6 @@ export default [
       },
     },
     plugins: { "@typescript-eslint": tsPlugin },
-    // Merge the plugin's recommended rules and add workspace-specific
-    // overrides. This avoids using `extends` in the flat config while
-    // still getting the plugin's baseline rule set.
     rules: Object.assign({}, tsPluginRecommendedRules, {
       "@typescript-eslint/no-explicit-any": "warn",
       "@typescript-eslint/no-var-requires": "warn",
@@ -50,9 +66,6 @@ export default [
       ecmaVersion: 2022,
       sourceType: "module",
     },
-    // No `extends` in flat config; keep minimal rules and rely on
-    // workspace conventions. If you want eslint:recommended behavior,
-    // import its rules explicitly here.
     rules: {},
   },
 ];

@@ -1,3 +1,6 @@
 packages:
-  - "apps/*"
-  - "plugins/*"
+  - apps/*
+  - plugins/*
+
+onlyBuiltDependencies:
+  - nx
