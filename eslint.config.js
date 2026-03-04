@@ -8,7 +8,6 @@ module.exports = [
   {
     ignores: ["**/dist/**", "**/node_modules/**"],
   },
-  ...compat.extendFlatConfig({
-    // Keep root rules empty; packages define their own rules in .eslintrc.js
-  }),
+  // Translate legacy eslintrc files to a flat config
+  ...compat.extends(),
 ];
