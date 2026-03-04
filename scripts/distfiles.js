@@ -1,9 +1,11 @@
-const fs = require("fs");
-const path = require("path");
+import fs from "fs";
+import path from "path";
 
 const dir = process.cwd();
 
-const mainInfo = require(path.join(dir, "package.json"));
+// Read package.json without using dynamic import (CJS/ESM compatible)
+const mainPkgPath = path.join(dir, "package.json");
+const mainInfo = JSON.parse(fs.readFileSync(mainPkgPath, "utf8") || "{}");
 
 const libPackage = path.join(dir, "package.dist.json");
 
