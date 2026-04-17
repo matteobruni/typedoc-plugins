@@ -24,6 +24,6 @@
     "typedoc-plugin-google-ads": "workspace:^",
     "typedoc-plugin-keywords": "workspace:^",
     "typedoc-plugin-particles": "workspace:^",
-    "typescript": "^5.9.3"
+    "typescript": "^6.0.0"
   }
 }
