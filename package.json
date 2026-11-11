@@ -24,7 +24,7 @@
     "eslint": "^9.39.3",
     "eslint-config-prettier": "^10.1.8",
     "husky": "^9.1.7",
-    "lerna": "^9.0.5",
+    "lerna": "^10.0.0",
     "prettier": "^3.8.1",
     "rimraf": "^6.1.3",
     "typedoc": "^0.28.17",
